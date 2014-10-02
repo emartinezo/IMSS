@@ -1,0 +1,95 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>mx.gob.imss.cit.gf</groupId>
+		<artifactId>gestor-flujos</artifactId>
+		<version>1.0</version>
+	</parent>
+	<artifactId>gestor-flujos-services</artifactId>
+	<version>${project.parent.version}</version>
+	<name>Gestor flujos - Services</name>
+	<packaging>ejb</packaging>
+
+	<dependencies>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>${log4j.version}</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>mx.gob.imss.cit.gf</groupId>
+			<artifactId>gestor-flujos-commons</artifactId>
+			<version>${project.parent.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>javax</groupId>
+					<artifactId>javaee-api</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<dependency>
+			<groupId>mx.gob.imss.cit.gf</groupId>
+			<artifactId>gestor-flujos-model</artifactId>
+			<version>${project.parent.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>javax</groupId>
+					<artifactId>javaee-api</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		
+		<dependency>
+			<groupId>mx.gob.imss.cit.gf</groupId>
+			<artifactId>gestor-flujos-adapter</artifactId>
+			<version>${project.parent.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>javax</groupId>
+					<artifactId>javaee-api</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-api</artifactId>
+			<version>${java-ee.version}</version>
+			<scope>provided</scope>
+		</dependency>
+
+
+	</dependencies>
+	<build>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+			</resource>
+		</resources>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-ejb-plugin</artifactId>
+				<version>${maven-ejb-plugin.version}</version>
+				<configuration>
+					<ejbVersion>3.1</ejbVersion>
+					<archive>
+						<manifest>
+							<addClasspath>false</addClasspath>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>
+
+		
+
+		</plugins>
+
+	</build>
+
+</project>

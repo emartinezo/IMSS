@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="2.0.3" sequence="0" timestamp="1411186124088" analysisTimestamp="1411188030664" release="">
+  <Project>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-services\target\classes\mx\gob\imss\cit\gf\services\exception\GestorFlujosServicesExceptionBuilder.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-services\target\classes\mx\gob\imss\cit\gf\services\IInstanciaService.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-services\target\classes\mx\gob\imss\cit\gf\services\exception\GestorFlujosServicesException.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-services\target\classes\mx\gob\imss\cit\gf\services\impl\TareaService.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-services\target\classes\mx\gob\imss\cit\gf\services\exception\GestorFlujosServicesCodeExceptionEnum.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-services\target\classes\mx\gob\imss\cit\gf\services\impl\UsuarioService.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-services\target\classes\mx\gob\imss\cit\gf\services\IUsuarioService.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-services\target\classes\mx\gob\imss\cit\gf\services\ISesionService.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-services\target\classes\mx\gob\imss\cit\gf\services\constans\ServiceBPMConstants.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-services\target\classes\mx\gob\imss\cit\gf\services\ITareaService.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-services\target\classes\mx\gob\imss\cit\gf\services\constans\EstadoActividadConstants.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-services\target\classes\mx\gob\imss\cit\gf\services\impl\ModeloService.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-services\target\classes\mx\gob\imss\cit\gf\services\impl\SesionService.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-services\target\classes\mx\gob\imss\cit\gf\services\impl\InstanciaService.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-services\target\classes\mx\gob\imss\cit\gf\services\IModeloService.class</Jar>
+    <AuxClasspathEntry>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-services\target\classes</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\.\.sonar\gestor.flujos_gestor.services\findbugs\annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\.\.sonar\gestor.flujos_gestor.services\findbugs\jsr305.jar</AuxClasspathEntry>
+    <SrcDir>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-services\src\main\java</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="12">
+    <MissingClass>mx.gob.imss.cit.gf.adapter.IAdapterBPM</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.adapter.exception.AdapterBPMException</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.exception.GestorFlujosException</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.util.ValidaCatalogo</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.util.ValidatorUtil</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.vo.ConsultaArgActividadVO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.vo.DatosUsuarioVO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.vo.InstanciaVO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.vo.TareaVO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.vo.UsuarioVO</MissingClass>
+    <MissingClass>org.slf4j.Logger</MissingClass>
+    <MissingClass>org.slf4j.LoggerFactory</MissingClass>
+  </Errors>
+  <FindBugsSummary timestamp="Fri, 19 Sep 2014 23:08:44 -0500" total_classes="15" referenced_classes="39" total_bugs="0" total_size="648" num_packages="4" vm_version="20.45-b01" cpu_seconds="3.15" clock_seconds="1.31" peak_mbytes="749.60" alloc_mbytes="1806.25" gc_seconds="0.02">
+    <FileStats path="mx/gob/imss/cit/gf/services/IInstanciaService.java" bugCount="0" size="8"/>
+    <FileStats path="mx/gob/imss/cit/gf/services/IModeloService.java" bugCount="0" size="2"/>
+    <FileStats path="mx/gob/imss/cit/gf/services/ISesionService.java" bugCount="0" size="3"/>
+    <FileStats path="mx/gob/imss/cit/gf/services/ITareaService.java" bugCount="0" size="11"/>
+    <FileStats path="mx/gob/imss/cit/gf/services/IUsuarioService.java" bugCount="0" size="5"/>
+    <FileStats path="mx/gob/imss/cit/gf/services/constans/EstadoActividadConstants.java" bugCount="0" size="16"/>
+    <FileStats path="mx/gob/imss/cit/gf/services/constans/ServiceBPMConstants.java" bugCount="0" size="7"/>
+    <FileStats path="mx/gob/imss/cit/gf/services/exception/GestorFlujosServicesCodeExceptionEnum.java" bugCount="0" size="19"/>
+    <FileStats path="mx/gob/imss/cit/gf/services/exception/GestorFlujosServicesException.java" bugCount="0" size="14"/>
+    <FileStats path="mx/gob/imss/cit/gf/services/exception/GestorFlujosServicesExceptionBuilder.java" bugCount="0" size="43"/>
+    <FileStats path="mx/gob/imss/cit/gf/services/impl/InstanciaService.java" bugCount="0" size="138"/>
+    <FileStats path="mx/gob/imss/cit/gf/services/impl/ModeloService.java" bugCount="0" size="23"/>
+    <FileStats path="mx/gob/imss/cit/gf/services/impl/SesionService.java" bugCount="0" size="31"/>
+    <FileStats path="mx/gob/imss/cit/gf/services/impl/TareaService.java" bugCount="0" size="255"/>
+    <FileStats path="mx/gob/imss/cit/gf/services/impl/UsuarioService.java" bugCount="0" size="73"/>
+    <PackageStats package="mx.gob.imss.cit.gf.services" total_bugs="0" total_types="5" total_size="29">
+      <ClassStats class="mx.gob.imss.cit.gf.services.IInstanciaService" sourceFile="IInstanciaService.java" interface="true" size="8" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.services.IModeloService" sourceFile="IModeloService.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.services.ISesionService" sourceFile="ISesionService.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.services.ITareaService" sourceFile="ITareaService.java" interface="true" size="11" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.services.IUsuarioService" sourceFile="IUsuarioService.java" interface="true" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="mx.gob.imss.cit.gf.services.constans" total_bugs="0" total_types="2" total_size="23">
+      <ClassStats class="mx.gob.imss.cit.gf.services.constans.EstadoActividadConstants" sourceFile="EstadoActividadConstants.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.services.constans.ServiceBPMConstants" sourceFile="ServiceBPMConstants.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="mx.gob.imss.cit.gf.services.exception" total_bugs="0" total_types="3" total_size="76">
+      <ClassStats class="mx.gob.imss.cit.gf.services.exception.GestorFlujosServicesCodeExceptionEnum" sourceFile="GestorFlujosServicesCodeExceptionEnum.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.services.exception.GestorFlujosServicesException" sourceFile="GestorFlujosServicesException.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.services.exception.GestorFlujosServicesExceptionBuilder" sourceFile="GestorFlujosServicesExceptionBuilder.java" interface="false" size="43" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="mx.gob.imss.cit.gf.services.impl" total_bugs="0" total_types="5" total_size="520">
+      <ClassStats class="mx.gob.imss.cit.gf.services.impl.InstanciaService" sourceFile="InstanciaService.java" interface="false" size="138" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.services.impl.ModeloService" sourceFile="ModeloService.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.services.impl.SesionService" sourceFile="SesionService.java" interface="false" size="31" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.services.impl.TareaService" sourceFile="TareaService.java" interface="false" size="255" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.services.impl.UsuarioService" sourceFile="UsuarioService.java" interface="false" size="73" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="180" invocations="349" avgMicrosecondsPerInvocation="516" maxMicrosecondsPerInvocation="1744" standardDeviationMircosecondsPerInvocation="353"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="118" invocations="346" avgMicrosecondsPerInvocation="342" maxMicrosecondsPerInvocation="4974" standardDeviationMircosecondsPerInvocation="629"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="92" invocations="59" avgMicrosecondsPerInvocation="1568" maxMicrosecondsPerInvocation="8920" standardDeviationMircosecondsPerInvocation="2093"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="75" invocations="59" avgMicrosecondsPerInvocation="1283" maxMicrosecondsPerInvocation="5445" standardDeviationMircosecondsPerInvocation="1624"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="75" invocations="58" avgMicrosecondsPerInvocation="1302" maxMicrosecondsPerInvocation="6317" standardDeviationMircosecondsPerInvocation="1759"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="48" invocations="59" avgMicrosecondsPerInvocation="825" maxMicrosecondsPerInvocation="4383" standardDeviationMircosecondsPerInvocation="1022"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="45" invocations="59" avgMicrosecondsPerInvocation="767" maxMicrosecondsPerInvocation="3762" standardDeviationMircosecondsPerInvocation="843"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="33" invocations="59" avgMicrosecondsPerInvocation="565" maxMicrosecondsPerInvocation="2216" standardDeviationMircosecondsPerInvocation="611"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="32" invocations="39" avgMicrosecondsPerInvocation="825" maxMicrosecondsPerInvocation="6516" standardDeviationMircosecondsPerInvocation="1503"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.LoadOfKnownNullValue" totalMilliseconds="30" invocations="15" avgMicrosecondsPerInvocation="2019" maxMicrosecondsPerInvocation="15010" standardDeviationMircosecondsPerInvocation="4189"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="30" invocations="134" avgMicrosecondsPerInvocation="224" maxMicrosecondsPerInvocation="1562" standardDeviationMircosecondsPerInvocation="246"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.UnreadFields" totalMilliseconds="29" invocations="15" avgMicrosecondsPerInvocation="1962" maxMicrosecondsPerInvocation="22056" standardDeviationMircosecondsPerInvocation="5462"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="25" invocations="59" avgMicrosecondsPerInvocation="437" maxMicrosecondsPerInvocation="2019" standardDeviationMircosecondsPerInvocation="482"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="20" invocations="287" avgMicrosecondsPerInvocation="69" maxMicrosecondsPerInvocation="782" standardDeviationMircosecondsPerInvocation="118"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="17" invocations="39" avgMicrosecondsPerInvocation="437" maxMicrosecondsPerInvocation="6189" standardDeviationMircosecondsPerInvocation="1089"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.TypeQualifierNullnessAnnotationDatabase" totalMilliseconds="12" invocations="1807" avgMicrosecondsPerInvocation="7" maxMicrosecondsPerInvocation="213" standardDeviationMircosecondsPerInvocation="14"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="12" invocations="39" avgMicrosecondsPerInvocation="311" maxMicrosecondsPerInvocation="2535" standardDeviationMircosecondsPerInvocation="506"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

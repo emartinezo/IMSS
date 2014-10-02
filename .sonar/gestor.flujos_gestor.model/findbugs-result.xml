@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="2.0.3" sequence="0" timestamp="1411186113394" analysisTimestamp="1411188027830" release="">
+  <Project>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-model\target\classes\mx\gob\imss\cit\gf\vo\ConsultaArgActividadVO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-model\target\classes\mx\gob\imss\cit\gf\vo\ActividadVO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-model\target\classes\mx\gob\imss\cit\gf\vo\ModeloProcesoVO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-model\target\classes\mx\gob\imss\cit\gf\vo\UsuarioVO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-model\target\classes\mx\gob\imss\cit\gf\vo\TareaVO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-model\target\classes\mx\gob\imss\cit\gf\vo\SesionVO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-model\target\classes\mx\gob\imss\cit\gf\vo\ConsultaParticipantesVO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-model\target\classes\mx\gob\imss\cit\gf\vo\InstanciaVO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-model\target\classes\mx\gob\imss\cit\gf\vo\RolVO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-model\target\classes\mx\gob\imss\cit\gf\vo\ParticipanteVO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-model\target\classes\mx\gob\imss\cit\gf\vo\DatosUsuarioVO.class</Jar>
+    <AuxClasspathEntry>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-model\target\classes</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\.\.sonar\gestor.flujos_gestor.model\findbugs\annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\.\.sonar\gestor.flujos_gestor.model\findbugs\jsr305.jar</AuxClasspathEntry>
+    <SrcDir>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-model\src\main\java</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 19 Sep 2014 23:08:33 -0500" total_classes="11" referenced_classes="23" total_bugs="0" total_size="380" num_packages="1" vm_version="20.45-b01" cpu_seconds="1.72" clock_seconds="0.58" peak_mbytes="641.18" alloc_mbytes="1806.25" gc_seconds="0.00">
+    <FileStats path="mx/gob/imss/cit/gf/vo/ActividadVO.java" bugCount="0" size="34"/>
+    <FileStats path="mx/gob/imss/cit/gf/vo/ConsultaArgActividadVO.java" bugCount="0" size="28"/>
+    <FileStats path="mx/gob/imss/cit/gf/vo/ConsultaParticipantesVO.java" bugCount="0" size="21"/>
+    <FileStats path="mx/gob/imss/cit/gf/vo/DatosUsuarioVO.java" bugCount="0" size="39"/>
+    <FileStats path="mx/gob/imss/cit/gf/vo/InstanciaVO.java" bugCount="0" size="63"/>
+    <FileStats path="mx/gob/imss/cit/gf/vo/ModeloProcesoVO.java" bugCount="0" size="28"/>
+    <FileStats path="mx/gob/imss/cit/gf/vo/ParticipanteVO.java" bugCount="0" size="33"/>
+    <FileStats path="mx/gob/imss/cit/gf/vo/RolVO.java" bugCount="0" size="10"/>
+    <FileStats path="mx/gob/imss/cit/gf/vo/SesionVO.java" bugCount="0" size="16"/>
+    <FileStats path="mx/gob/imss/cit/gf/vo/TareaVO.java" bugCount="0" size="90"/>
+    <FileStats path="mx/gob/imss/cit/gf/vo/UsuarioVO.java" bugCount="0" size="18"/>
+    <PackageStats package="mx.gob.imss.cit.gf.vo" total_bugs="0" total_types="11" total_size="380">
+      <ClassStats class="mx.gob.imss.cit.gf.vo.ActividadVO" sourceFile="ActividadVO.java" interface="false" size="34" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.vo.ConsultaArgActividadVO" sourceFile="ConsultaArgActividadVO.java" interface="false" size="28" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.vo.ConsultaParticipantesVO" sourceFile="ConsultaParticipantesVO.java" interface="false" size="21" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.vo.DatosUsuarioVO" sourceFile="DatosUsuarioVO.java" interface="false" size="39" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.vo.InstanciaVO" sourceFile="InstanciaVO.java" interface="false" size="63" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.vo.ModeloProcesoVO" sourceFile="ModeloProcesoVO.java" interface="false" size="28" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.vo.ParticipanteVO" sourceFile="ParticipanteVO.java" interface="false" size="33" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.vo.RolVO" sourceFile="RolVO.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.vo.SesionVO" sourceFile="SesionVO.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.vo.TareaVO" sourceFile="TareaVO.java" interface="false" size="90" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.vo.UsuarioVO" sourceFile="UsuarioVO.java" interface="false" size="18" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="122" invocations="291" avgMicrosecondsPerInvocation="422" maxMicrosecondsPerInvocation="1240" standardDeviationMircosecondsPerInvocation="205"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="74" invocations="287" avgMicrosecondsPerInvocation="260" maxMicrosecondsPerInvocation="3592" standardDeviationMircosecondsPerInvocation="442"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="22" invocations="247" avgMicrosecondsPerInvocation="92" maxMicrosecondsPerInvocation="1082" standardDeviationMircosecondsPerInvocation="134"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="12" invocations="23" avgMicrosecondsPerInvocation="539" maxMicrosecondsPerInvocation="3772" standardDeviationMircosecondsPerInvocation="1024"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="11" invocations="178" avgMicrosecondsPerInvocation="63" maxMicrosecondsPerInvocation="636" standardDeviationMircosecondsPerInvocation="104"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

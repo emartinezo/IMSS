@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+extraProperties=sonar.core.codeCoveragePlugin\=jacoco\r\nsonar.dynamicAnalysis\=reuseReports\r\nsonar.jacoco.reportPath\=C\:\\Developer\\svn\\IMSS\\gestor\\trunk\\src\\gestor-flujos-servicios\\gestor-flujos-integration-api/../target/jacoco.exec
+projectKey=mx.gob.imss.cit.gf\:gestor-flujos-integration-api
+serverUrl=http\://localhost\:9000
+version=2

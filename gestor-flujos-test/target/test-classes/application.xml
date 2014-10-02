@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+
+    <display-name>gestor-flujos-test</display-name>
+
+    <module>
+        <ejb>ejb-test.jar</ejb>
+    </module>
+
+    <library-directory>lib</library-directory>
+
+</application>

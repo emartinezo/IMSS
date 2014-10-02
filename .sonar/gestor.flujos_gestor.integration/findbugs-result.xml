@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="2.0.3" sequence="0" timestamp="1411186126699" analysisTimestamp="1411188020292" release="">
+  <Project>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration\target\classes\mx\gob\imss\cit\gf\integration\impl\UsuarioIntegrator.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration\target\classes\mx\gob\imss\cit\gf\integration\impl\ModeloIntegrator.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration\target\classes\mx\gob\imss\cit\gf\integration\impl\InstanciaIntegrator.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration\target\classes\mx\gob\imss\cit\gf\integration\impl\SesionIntegrator.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration\target\classes\mx\gob\imss\cit\gf\integration\impl\TareaIntegrator.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration\target\classes\mx\gob\imss\cit\gf\integration\util\IntegrationResponseExceptionUtil.class</Jar>
+    <AuxClasspathEntry>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration\target\classes</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\.\.sonar\gestor.flujos_gestor.integration\findbugs\annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\.\.sonar\gestor.flujos_gestor.integration\findbugs\jsr305.jar</AuxClasspathEntry>
+    <SrcDir>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration\src\main\java</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="52">
+    <MissingClass>mx.gob.imss.cit.gf.integration.domain.ActividadDTO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.integration.domain.InstanciaDTO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.integration.domain.ModeloDTO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.integration.domain.ParticipanteDTO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.integration.domain.RolDTO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.integration.domain.SesionDTO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.integration.domain.TareaDTO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.integration.domain.TareaRolDTO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.integration.domain.UsuarioBPMDTO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.integration.domain.UsuarioDTO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.integration.dto.BaseResponseDTO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.integration.dto.RequestConsultaArgActDTO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.integration.dto.RequestCreateUsuarioDTO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.integration.dto.RequestDeleteUsuarioDTO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.integration.dto.RequestFindUsuarioDTO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.integration.dto.RequestInstanciaDTO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.integration.dto.RequestModeloDTO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.integration.dto.RequestParticipantesAsigDTO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.integration.dto.RequestResponsablesInstDTO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.integration.dto.RequestSesionDTO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.integration.dto.RequestTareaDTO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.integration.dto.ResponseConsultaArgActDTO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.integration.dto.ResponseCreateUsuarioDTO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.integration.dto.ResponseDeleteUsuarioDTO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.integration.dto.ResponseFindUsuarioDTO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.integration.dto.ResponseInstanciaDTO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.integration.dto.ResponseInstanciaRolesDTO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.integration.dto.ResponseModeloDTO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.integration.dto.ResponseParticipantesAsigDTO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.integration.dto.ResponseResponsablesInstDTO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.integration.dto.ResponseSesionDTO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.integration.dto.ResponseTareaDTO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.integration.dto.ResponseTareaRolDTO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.services.IInstanciaService</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.services.IModeloService</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.services.ISesionService</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.services.ITareaService</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.services.IUsuarioService</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.services.exception.GestorFlujosServicesException</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.vo.ActividadVO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.vo.ConsultaArgActividadVO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.vo.ConsultaParticipantesVO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.vo.DatosUsuarioVO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.vo.InstanciaVO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.vo.ModeloProcesoVO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.vo.ParticipanteVO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.vo.RolVO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.vo.SesionVO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.vo.TareaVO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.vo.UsuarioVO</MissingClass>
+    <MissingClass>org.slf4j.Logger</MissingClass>
+    <MissingClass>org.slf4j.LoggerFactory</MissingClass>
+  </Errors>
+  <FindBugsSummary timestamp="Fri, 19 Sep 2014 23:08:46 -0500" total_classes="6" referenced_classes="21" total_bugs="0" total_size="593" num_packages="2" vm_version="20.45-b01" cpu_seconds="4.54" clock_seconds="1.66" peak_mbytes="438.27" alloc_mbytes="1806.25" gc_seconds="0.00">
+    <FileStats path="mx/gob/imss/cit/gf/integration/impl/InstanciaIntegrator.java" bugCount="0" size="173"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/impl/ModeloIntegrator.java" bugCount="0" size="44"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/impl/SesionIntegrator.java" bugCount="0" size="33"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/impl/TareaIntegrator.java" bugCount="0" size="214"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/impl/UsuarioIntegrator.java" bugCount="0" size="107"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/util/IntegrationResponseExceptionUtil.java" bugCount="0" size="22"/>
+    <PackageStats package="mx.gob.imss.cit.gf.integration.impl" total_bugs="0" total_types="5" total_size="571">
+      <ClassStats class="mx.gob.imss.cit.gf.integration.impl.InstanciaIntegrator" sourceFile="InstanciaIntegrator.java" interface="false" size="173" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.impl.ModeloIntegrator" sourceFile="ModeloIntegrator.java" interface="false" size="44" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.impl.SesionIntegrator" sourceFile="SesionIntegrator.java" interface="false" size="33" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.impl.TareaIntegrator" sourceFile="TareaIntegrator.java" interface="false" size="214" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.impl.UsuarioIntegrator" sourceFile="UsuarioIntegrator.java" interface="false" size="107" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="mx.gob.imss.cit.gf.integration.util" total_bugs="0" total_types="1" total_size="22">
+      <ClassStats class="mx.gob.imss.cit.gf.integration.util.IntegrationResponseExceptionUtil" sourceFile="IntegrationResponseExceptionUtil.java" interface="false" size="22" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="184" invocations="355" avgMicrosecondsPerInvocation="520" maxMicrosecondsPerInvocation="2311" standardDeviationMircosecondsPerInvocation="352"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="182" invocations="353" avgMicrosecondsPerInvocation="517" maxMicrosecondsPerInvocation="5815" standardDeviationMircosecondsPerInvocation="821"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="91" invocations="49" avgMicrosecondsPerInvocation="1864" maxMicrosecondsPerInvocation="5091" standardDeviationMircosecondsPerInvocation="1327"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="68" invocations="49" avgMicrosecondsPerInvocation="1407" maxMicrosecondsPerInvocation="5203" standardDeviationMircosecondsPerInvocation="1259"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="68" invocations="49" avgMicrosecondsPerInvocation="1402" maxMicrosecondsPerInvocation="4162" standardDeviationMircosecondsPerInvocation="1073"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="60" invocations="49" avgMicrosecondsPerInvocation="1235" maxMicrosecondsPerInvocation="3133" standardDeviationMircosecondsPerInvocation="792"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="57" invocations="49" avgMicrosecondsPerInvocation="1173" maxMicrosecondsPerInvocation="4764" standardDeviationMircosecondsPerInvocation="903"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="56" invocations="49" avgMicrosecondsPerInvocation="1153" maxMicrosecondsPerInvocation="3917" standardDeviationMircosecondsPerInvocation="934"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="55" invocations="49" avgMicrosecondsPerInvocation="1140" maxMicrosecondsPerInvocation="3253" standardDeviationMircosecondsPerInvocation="845"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="52" invocations="119" avgMicrosecondsPerInvocation="441" maxMicrosecondsPerInvocation="2070" standardDeviationMircosecondsPerInvocation="425"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="48" invocations="21" avgMicrosecondsPerInvocation="2328" maxMicrosecondsPerInvocation="9676" standardDeviationMircosecondsPerInvocation="2690"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.RuntimeExceptionCapture" totalMilliseconds="22" invocations="6" avgMicrosecondsPerInvocation="3676" maxMicrosecondsPerInvocation="11109" standardDeviationMircosecondsPerInvocation="3837"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.LoadOfKnownNullValue" totalMilliseconds="19" invocations="6" avgMicrosecondsPerInvocation="3234" maxMicrosecondsPerInvocation="6980" standardDeviationMircosecondsPerInvocation="2546"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="17" invocations="253" avgMicrosecondsPerInvocation="69" maxMicrosecondsPerInvocation="695" standardDeviationMircosecondsPerInvocation="98"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="16" invocations="21" avgMicrosecondsPerInvocation="804" maxMicrosecondsPerInvocation="6086" standardDeviationMircosecondsPerInvocation="1412"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DumbMethods" totalMilliseconds="13" invocations="6" avgMicrosecondsPerInvocation="2202" maxMicrosecondsPerInvocation="5410" standardDeviationMircosecondsPerInvocation="1925"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.UnreadFields" totalMilliseconds="12" invocations="6" avgMicrosecondsPerInvocation="2009" maxMicrosecondsPerInvocation="5640" standardDeviationMircosecondsPerInvocation="1756"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="11" invocations="49" avgMicrosecondsPerInvocation="233" maxMicrosecondsPerInvocation="1008" standardDeviationMircosecondsPerInvocation="217"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.TypeQualifierNullnessAnnotationDatabase" totalMilliseconds="11" invocations="1122" avgMicrosecondsPerInvocation="9" maxMicrosecondsPerInvocation="128" standardDeviationMircosecondsPerInvocation="16"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="9.204" errors="0" skipped="0" tests="20" name="mx.gob.imss.cit.gf.test.service.TareaServiceTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\jdk1.6.0_39\jre\bin"/>
+    <property name="java.vm.version" value="20.14-b01"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="MX"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\gestor-flujos-servicios"/>
+    <property name="java.runtime.version" value="1.6.0_39-b04"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\jdk1.6.0_39\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\JHERNA~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Maven\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\jdk1.6.0_39\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Common Files\Lenovo;C:\Program Files (x86)\Common Files\Ulead Systems\MPEG;C:\Program Files (x86)\Windows Live\Shared;C:\SWTOOLS\ReadyApps;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\Program Files (x86)\Common Files\Lenovo;C:\Program Files (x86)\Kaspersky Lab\Kaspersky Endpoint Security 10 para Windows\;C:\Program Files\TortoiseSVN\bin;C:\Maven\bin;C:\Program Files (x86)\Git\bin;C:\jdk1.6.0_39\bin;C:\Program Files (x86)\Nmap;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\jhernandezn"/>
+    <property name="user.timezone" value="America/Mexico_City"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="user.name" value="jhernandezn"/>
+    <property name="java.class.path" value="C:\Maven\bin\..\boot\plexus-classworlds-2.5.1.jar"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\jdk1.6.0_39\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="es"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_39"/>
+    <property name="java.ext.dirs" value="C:\jdk1.6.0_39\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\jdk1.6.0_39\jre\lib\resources.jar;C:\jdk1.6.0_39\jre\lib\rt.jar;C:\jdk1.6.0_39\jre\lib\sunrsasign.jar;C:\jdk1.6.0_39\jre\lib\jsse.jar;C:\jdk1.6.0_39\jre\lib\jce.jar;C:\jdk1.6.0_39\jre\lib\charsets.jar;C:\jdk1.6.0_39\jre\lib\modules\jdk.boot.jar;C:\jdk1.6.0_39\jre\classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="maven.home" value="C:\Maven\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="0.47" classname="mx.gob.imss.cit.gf.test.service.TareaServiceTest" name="testFindTareasInstancia"/>
+  <testcase time="0.019" classname="mx.gob.imss.cit.gf.test.service.TareaServiceTest" name="testFindTareasInstancia_error"/>
+  <testcase time="0.231" classname="mx.gob.imss.cit.gf.test.service.TareaServiceTest" name="testFindTareas"/>
+  <testcase time="0.061" classname="mx.gob.imss.cit.gf.test.service.TareaServiceTest" name="testFindTareas_error"/>
+  <testcase time="0.041" classname="mx.gob.imss.cit.gf.test.service.TareaServiceTest" name="testUpdateEstadoTarea"/>
+  <testcase time="0.071" classname="mx.gob.imss.cit.gf.test.service.TareaServiceTest" name="testUpdateEstadoTarea_error"/>
+  <testcase time="0.074" classname="mx.gob.imss.cit.gf.test.service.TareaServiceTest" name="testFindRolTareasByInstancia"/>
+  <testcase time="0.044" classname="mx.gob.imss.cit.gf.test.service.TareaServiceTest" name="testFindRolTareasByInstancia_error"/>
+  <testcase time="0.141" classname="mx.gob.imss.cit.gf.test.service.TareaServiceTest" name="testFindTareasAsignadas"/>
+  <testcase time="0.016" classname="mx.gob.imss.cit.gf.test.service.TareaServiceTest" name="testFindTareasAsignadas_error"/>
+  <testcase time="0.213" classname="mx.gob.imss.cit.gf.test.service.TareaServiceTest" name="testGetArgumentoActividad"/>
+  <testcase time="0.072" classname="mx.gob.imss.cit.gf.test.service.TareaServiceTest" name="testGetArgumentoActividad_error"/>
+  <testcase time="0.174" classname="mx.gob.imss.cit.gf.test.service.TareaServiceTest" name="testUpdateTarea"/>
+  <testcase time="0.067" classname="mx.gob.imss.cit.gf.test.service.TareaServiceTest" name="testUpdateTarea_error"/>
+  <testcase time="0.077" classname="mx.gob.imss.cit.gf.test.service.TareaServiceTest" name="testExecuteTarea"/>
+  <testcase time="5.508" classname="mx.gob.imss.cit.gf.test.service.TareaServiceTest" name="testExecuteTarea_error"/>
+  <testcase time="1.062" classname="mx.gob.imss.cit.gf.test.service.TareaServiceTest" name="testFindTareasRemitentes"/>
+  <testcase time="0.72" classname="mx.gob.imss.cit.gf.test.service.TareaServiceTest" name="testFindTareasRemitentes_error"/>
+  <testcase time="0.088" classname="mx.gob.imss.cit.gf.test.service.TareaServiceTest" name="testFindFirstInstanceTaskForProcess"/>
+  <testcase time="0.055" classname="mx.gob.imss.cit.gf.test.service.TareaServiceTest" name="testFindFirstInstanceTaskForProcess_error"/>
+</testsuite>

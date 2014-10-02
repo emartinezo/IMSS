@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="2.0.3" sequence="0" timestamp="1411186122067" analysisTimestamp="1411188003377" release="">
+  <Project>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-adapter\target\classes\mx\gob\imss\cit\gf\adapter\util\PredicadosUtil.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-adapter\target\classes\mx\gob\imss\cit\gf\adapter\impl\AdapterBPM.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-adapter\target\classes\mx\gob\imss\cit\gf\adapter\util\PropertiesAdapterUtil.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-adapter\target\classes\mx\gob\imss\cit\gf\adapter\constant\AdapterBPMConstants.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-adapter\target\classes\mx\gob\imss\cit\gf\adapter\IAdapterBPM.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-adapter\target\classes\mx\gob\imss\cit\gf\adapter\util\SerializerUtil.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-adapter\target\classes\mx\gob\imss\cit\gf\adapter\exception\AdapterBPMExceptionBuilder.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-adapter\target\classes\mx\gob\imss\cit\gf\adapter\exception\AdapterBPMCodeExceptionEnum.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-adapter\target\classes\mx\gob\imss\cit\gf\adapter\exception\AdapterBPMException.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-adapter\target\classes\mx\gob\imss\cit\gf\adapter\impl\ContextUserCache.class</Jar>
+    <AuxClasspathEntry>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-adapter\target\classes</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\.\.sonar\gestor.flujos_gestor.adapter\findbugs\annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\.\.sonar\gestor.flujos_gestor.adapter\findbugs\jsr305.jar</AuxClasspathEntry>
+    <SrcDir>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-adapter\src\main\java</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="58">
+    <MissingClass>mx.gob.imss.cit.gf.exception.GestorFlujosException</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.util.DateUtil</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.vo.ActividadVO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.vo.DatosUsuarioVO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.vo.InstanciaVO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.vo.ModeloProcesoVO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.vo.RolVO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.vo.SesionVO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.vo.TareaVO</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.vo.UsuarioVO</MissingClass>
+    <MissingClass>oracle.bpel.services.bpm.common.IBPMContext</MissingClass>
+    <MissingClass>oracle.bpel.services.workflow.WorkflowException</MissingClass>
+    <MissingClass>oracle.bpel.services.workflow.client.IWorkflowServiceClient</MissingClass>
+    <MissingClass>oracle.bpel.services.workflow.client.IWorkflowServiceClientConstants$CONNECTION_PROPERTY</MissingClass>
+    <MissingClass>oracle.bpel.services.workflow.query.ITaskQueryService</MissingClass>
+    <MissingClass>oracle.bpel.services.workflow.query.ITaskQueryService$AssignmentFilter</MissingClass>
+    <MissingClass>oracle.bpel.services.workflow.repos.Column</MissingClass>
+    <MissingClass>oracle.bpel.services.workflow.repos.Ordering</MissingClass>
+    <MissingClass>oracle.bpel.services.workflow.repos.Predicate</MissingClass>
+    <MissingClass>oracle.bpel.services.workflow.repos.TableConstants</MissingClass>
+    <MissingClass>oracle.bpel.services.workflow.task.ITaskService</MissingClass>
+    <MissingClass>oracle.bpel.services.workflow.task.model.CommentType</MissingClass>
+    <MissingClass>oracle.bpel.services.workflow.task.model.IdentityType</MissingClass>
+    <MissingClass>oracle.bpel.services.workflow.task.model.ObjectFactory</MissingClass>
+    <MissingClass>oracle.bpel.services.workflow.task.model.ProcessType</MissingClass>
+    <MissingClass>oracle.bpel.services.workflow.task.model.ScaType</MissingClass>
+    <MissingClass>oracle.bpel.services.workflow.task.model.SystemAttributesType</MissingClass>
+    <MissingClass>oracle.bpel.services.workflow.task.model.Task</MissingClass>
+    <MissingClass>oracle.bpel.services.workflow.user.IUserMetadataService</MissingClass>
+    <MissingClass>oracle.bpel.services.workflow.user.model.ObjectFactory</MissingClass>
+    <MissingClass>oracle.bpel.services.workflow.user.model.UserApplicationDataType</MissingClass>
+    <MissingClass>oracle.bpel.services.workflow.verification.IWorkflowContext</MissingClass>
+    <MissingClass>oracle.bpm.client.BPMServiceClientFactory</MissingClass>
+    <MissingClass>oracle.bpm.collections.Sequence</MissingClass>
+    <MissingClass>oracle.bpm.project.SequenceFlowImpl</MissingClass>
+    <MissingClass>oracle.bpm.project.model.ProjectObject</MissingClass>
+    <MissingClass>oracle.bpm.project.model.processes.BpmnType</MissingClass>
+    <MissingClass>oracle.bpm.project.model.processes.FlowNode</MissingClass>
+    <MissingClass>oracle.bpm.project.model.processes.Process</MissingClass>
+    <MissingClass>oracle.bpm.services.authentication.IBPMUserAuthenticationService</MissingClass>
+    <MissingClass>oracle.bpm.services.client.IBPMServiceClient</MissingClass>
+    <MissingClass>oracle.bpm.services.common.exception.BPMException</MissingClass>
+    <MissingClass>oracle.bpm.services.instancemanagement.IInstanceManagementService</MissingClass>
+    <MissingClass>oracle.bpm.services.instancemanagement.model.IIdentityType</MissingClass>
+    <MissingClass>oracle.bpm.services.instancemanagement.model.IProcessInstance</MissingClass>
+    <MissingClass>oracle.bpm.services.instancemanagement.model.IProcessSystemAttributes</MissingClass>
+    <MissingClass>oracle.bpm.services.instancequery.IAuditInstance</MissingClass>
+    <MissingClass>oracle.bpm.services.instancequery.IColumnConstants</MissingClass>
+    <MissingClass>oracle.bpm.services.instancequery.IInstanceQueryInput</MissingClass>
+    <MissingClass>oracle.bpm.services.instancequery.IInstanceQueryInput$AssignmentFilter</MissingClass>
+    <MissingClass>oracle.bpm.services.instancequery.IInstanceQueryService</MissingClass>
+    <MissingClass>oracle.bpm.services.instancequery.impl.InstanceQueryInput</MissingClass>
+    <MissingClass>oracle.bpm.services.internal.processmodel.IProcessModelService</MissingClass>
+    <MissingClass>oracle.bpm.services.internal.processmodel.model.IProcessModelPackage</MissingClass>
+    <MissingClass>oracle.tip.pc.services.common.ServiceFactory</MissingClass>
+    <MissingClass>org.apache.commons.lang.SerializationUtils</MissingClass>
+    <MissingClass>org.slf4j.Logger</MissingClass>
+    <MissingClass>org.slf4j.LoggerFactory</MissingClass>
+  </Errors>
+  <FindBugsSummary timestamp="Fri, 19 Sep 2014 23:08:42 -0500" total_classes="10" referenced_classes="41" total_bugs="0" total_size="912" num_packages="5" vm_version="20.45-b01" cpu_seconds="21.29" clock_seconds="7.89" peak_mbytes="225.95" alloc_mbytes="1806.25" gc_seconds="0.07">
+    <FileStats path="mx/gob/imss/cit/gf/adapter/IAdapterBPM.java" bugCount="0" size="23"/>
+    <FileStats path="mx/gob/imss/cit/gf/adapter/constant/AdapterBPMConstants.java" bugCount="0" size="20"/>
+    <FileStats path="mx/gob/imss/cit/gf/adapter/exception/AdapterBPMCodeExceptionEnum.java" bugCount="0" size="81"/>
+    <FileStats path="mx/gob/imss/cit/gf/adapter/exception/AdapterBPMException.java" bugCount="0" size="14"/>
+    <FileStats path="mx/gob/imss/cit/gf/adapter/exception/AdapterBPMExceptionBuilder.java" bugCount="0" size="39"/>
+    <FileStats path="mx/gob/imss/cit/gf/adapter/impl/AdapterBPM.java" bugCount="0" size="574"/>
+    <FileStats path="mx/gob/imss/cit/gf/adapter/impl/ContextUserCache.java" bugCount="0" size="33"/>
+    <FileStats path="mx/gob/imss/cit/gf/adapter/util/PredicadosUtil.java" bugCount="0" size="103"/>
+    <FileStats path="mx/gob/imss/cit/gf/adapter/util/PropertiesAdapterUtil.java" bugCount="0" size="17"/>
+    <FileStats path="mx/gob/imss/cit/gf/adapter/util/SerializerUtil.java" bugCount="0" size="8"/>
+    <PackageStats package="mx.gob.imss.cit.gf.adapter" total_bugs="0" total_types="1" total_size="23">
+      <ClassStats class="mx.gob.imss.cit.gf.adapter.IAdapterBPM" sourceFile="IAdapterBPM.java" interface="true" size="23" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="mx.gob.imss.cit.gf.adapter.constant" total_bugs="0" total_types="1" total_size="20">
+      <ClassStats class="mx.gob.imss.cit.gf.adapter.constant.AdapterBPMConstants" sourceFile="AdapterBPMConstants.java" interface="false" size="20" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="mx.gob.imss.cit.gf.adapter.exception" total_bugs="0" total_types="3" total_size="134">
+      <ClassStats class="mx.gob.imss.cit.gf.adapter.exception.AdapterBPMCodeExceptionEnum" sourceFile="AdapterBPMCodeExceptionEnum.java" interface="false" size="81" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.adapter.exception.AdapterBPMException" sourceFile="AdapterBPMException.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.adapter.exception.AdapterBPMExceptionBuilder" sourceFile="AdapterBPMExceptionBuilder.java" interface="false" size="39" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="mx.gob.imss.cit.gf.adapter.impl" total_bugs="0" total_types="2" total_size="607">
+      <ClassStats class="mx.gob.imss.cit.gf.adapter.impl.AdapterBPM" sourceFile="AdapterBPM.java" interface="false" size="574" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.adapter.impl.ContextUserCache" sourceFile="ContextUserCache.java" interface="false" size="33" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="mx.gob.imss.cit.gf.adapter.util" total_bugs="0" total_types="3" total_size="128">
+      <ClassStats class="mx.gob.imss.cit.gf.adapter.util.PredicadosUtil" sourceFile="PredicadosUtil.java" interface="false" size="103" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.adapter.util.PropertiesAdapterUtil" sourceFile="PropertiesAdapterUtil.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.adapter.util.SerializerUtil" sourceFile="SerializerUtil.java" interface="false" size="8" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="587" invocations="80" avgMicrosecondsPerInvocation="7339" maxMicrosecondsPerInvocation="76296" standardDeviationMircosecondsPerInvocation="12393"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="578" invocations="80" avgMicrosecondsPerInvocation="7228" maxMicrosecondsPerInvocation="113538" standardDeviationMircosecondsPerInvocation="14251"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="420" invocations="80" avgMicrosecondsPerInvocation="5257" maxMicrosecondsPerInvocation="81911" standardDeviationMircosecondsPerInvocation="10446"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="418" invocations="80" avgMicrosecondsPerInvocation="5229" maxMicrosecondsPerInvocation="42948" standardDeviationMircosecondsPerInvocation="7355"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="389" invocations="80" avgMicrosecondsPerInvocation="4864" maxMicrosecondsPerInvocation="63674" standardDeviationMircosecondsPerInvocation="8545"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="341" invocations="424" avgMicrosecondsPerInvocation="805" maxMicrosecondsPerInvocation="39403" standardDeviationMircosecondsPerInvocation="2514"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="260" invocations="78" avgMicrosecondsPerInvocation="3336" maxMicrosecondsPerInvocation="22532" standardDeviationMircosecondsPerInvocation="4740"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="245" invocations="80" avgMicrosecondsPerInvocation="3062" maxMicrosecondsPerInvocation="37628" standardDeviationMircosecondsPerInvocation="5297"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="227" invocations="192" avgMicrosecondsPerInvocation="1182" maxMicrosecondsPerInvocation="16240" standardDeviationMircosecondsPerInvocation="1617"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="224" invocations="41" avgMicrosecondsPerInvocation="5483" maxMicrosecondsPerInvocation="36315" standardDeviationMircosecondsPerInvocation="9549"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="201" invocations="427" avgMicrosecondsPerInvocation="471" maxMicrosecondsPerInvocation="1070" standardDeviationMircosecondsPerInvocation="300"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="127" invocations="41" avgMicrosecondsPerInvocation="3098" maxMicrosecondsPerInvocation="47951" standardDeviationMircosecondsPerInvocation="8222"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="114" invocations="41" avgMicrosecondsPerInvocation="2801" maxMicrosecondsPerInvocation="72734" standardDeviationMircosecondsPerInvocation="11141"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="105" invocations="41" avgMicrosecondsPerInvocation="2584" maxMicrosecondsPerInvocation="71939" standardDeviationMircosecondsPerInvocation="11044"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="100" invocations="80" avgMicrosecondsPerInvocation="1259" maxMicrosecondsPerInvocation="8929" standardDeviationMircosecondsPerInvocation="1633"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="86" invocations="102" avgMicrosecondsPerInvocation="851" maxMicrosecondsPerInvocation="58030" standardDeviationMircosecondsPerInvocation="5701"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.RuntimeExceptionCapture" totalMilliseconds="70" invocations="10" avgMicrosecondsPerInvocation="7087" maxMicrosecondsPerInvocation="52592" standardDeviationMircosecondsPerInvocation="15568"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.LiveLocalStoreDataflowFactory" totalMilliseconds="70" invocations="80" avgMicrosecondsPerInvocation="880" maxMicrosecondsPerInvocation="4021" standardDeviationMircosecondsPerInvocation="1077"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="63" invocations="41" avgMicrosecondsPerInvocation="1550" maxMicrosecondsPerInvocation="28147" standardDeviationMircosecondsPerInvocation="4460"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="59" invocations="41" avgMicrosecondsPerInvocation="1458" maxMicrosecondsPerInvocation="16777" standardDeviationMircosecondsPerInvocation="3297"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.LockDataflowFactory" totalMilliseconds="59" invocations="36" avgMicrosecondsPerInvocation="1640" maxMicrosecondsPerInvocation="6108" standardDeviationMircosecondsPerInvocation="1504"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="54" invocations="319" avgMicrosecondsPerInvocation="169" maxMicrosecondsPerInvocation="2237" standardDeviationMircosecondsPerInvocation="303"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindDeadLocalStores" totalMilliseconds="53" invocations="10" avgMicrosecondsPerInvocation="5362" maxMicrosecondsPerInvocation="18702" standardDeviationMircosecondsPerInvocation="6524"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="2.0.3" sequence="0" timestamp="1411186127543" analysisTimestamp="1411188033607" release="">
+  <Project>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-ws\target\classes\mx\gob\imss\cit\gf\ws\TareaWS.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-ws\target\classes\mx\gob\imss\cit\gf\ws\InstanciaWS.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-ws\target\classes\mx\gob\imss\cit\gf\ws\UsuarioWS.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-ws\target\classes\mx\gob\imss\cit\gf\ws\SesionWS.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-ws\target\classes\mx\gob\imss\cit\gf\ws\ModeloWS.class</Jar>
+    <AuxClasspathEntry>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-ws\target\classes</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\.\.sonar\gestor.flujos_gestor.ws\findbugs\annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\.\.sonar\gestor.flujos_gestor.ws\findbugs\jsr305.jar</AuxClasspathEntry>
+    <SrcDir>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-ws\src\main\java</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="5">
+    <MissingClass>mx.gob.imss.cit.gf.integration.api.IInstanciaIntegrator</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.integration.api.IModeloIntegrator</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.integration.api.ISesionIntegrator</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.integration.api.ITareaIntegrator</MissingClass>
+    <MissingClass>mx.gob.imss.cit.gf.integration.api.IUsuarioIntegrator</MissingClass>
+  </Errors>
+  <FindBugsSummary timestamp="Fri, 19 Sep 2014 23:08:47 -0500" total_classes="5" referenced_classes="17" total_bugs="0" total_size="68" num_packages="1" vm_version="20.45-b01" cpu_seconds="1.58" clock_seconds="0.53" peak_mbytes="750.12" alloc_mbytes="1806.25" gc_seconds="0.00">
+    <FileStats path="mx/gob/imss/cit/gf/ws/InstanciaWS.java" bugCount="0" size="18"/>
+    <FileStats path="mx/gob/imss/cit/gf/ws/ModeloWS.java" bugCount="0" size="6"/>
+    <FileStats path="mx/gob/imss/cit/gf/ws/SesionWS.java" bugCount="0" size="8"/>
+    <FileStats path="mx/gob/imss/cit/gf/ws/TareaWS.java" bugCount="0" size="24"/>
+    <FileStats path="mx/gob/imss/cit/gf/ws/UsuarioWS.java" bugCount="0" size="12"/>
+    <PackageStats package="mx.gob.imss.cit.gf.ws" total_bugs="0" total_types="5" total_size="68">
+      <ClassStats class="mx.gob.imss.cit.gf.ws.InstanciaWS" sourceFile="InstanciaWS.java" interface="false" size="18" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.ws.ModeloWS" sourceFile="ModeloWS.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.ws.SesionWS" sourceFile="SesionWS.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.ws.TareaWS" sourceFile="TareaWS.java" interface="false" size="24" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.ws.UsuarioWS" sourceFile="UsuarioWS.java" interface="false" size="12" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="138" invocations="299" avgMicrosecondsPerInvocation="463" maxMicrosecondsPerInvocation="4413" standardDeviationMircosecondsPerInvocation="722"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="131" invocations="302" avgMicrosecondsPerInvocation="436" maxMicrosecondsPerInvocation="1073" standardDeviationMircosecondsPerInvocation="244"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

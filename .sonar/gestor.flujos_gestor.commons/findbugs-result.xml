@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="2.0.3" sequence="0" timestamp="1411186117478" analysisTimestamp="1411188015942" release="">
+  <Project>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-commons\target\classes\mx\gob\imss\cit\gf\exception\GestorFlujosException.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-commons\target\classes\mx\gob\imss\cit\gf\util\ValidaCatalogo.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-commons\target\classes\mx\gob\imss\cit\gf\util\ValidatorUtil.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-commons\target\classes\mx\gob\imss\cit\gf\util\DateUtil.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-commons\target\classes\mx\gob\imss\cit\gf\constant\NombreParametroConstants.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-commons\target\classes\mx\gob\imss\cit\gf\util\MapperUtil.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-commons\target\classes\mx\gob\imss\cit\gf\constant\ValidacionesConstants.class</Jar>
+    <AuxClasspathEntry>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-commons\target\classes</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\.\.sonar\gestor.flujos_gestor.commons\findbugs\annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\.\.sonar\gestor.flujos_gestor.commons\findbugs\jsr305.jar</AuxClasspathEntry>
+    <SrcDir>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-commons\src\main\java</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="3">
+    <MissingClass>org.dozer.DozerBeanMapper</MissingClass>
+    <MissingClass>org.slf4j.Logger</MissingClass>
+    <MissingClass>org.slf4j.LoggerFactory</MissingClass>
+  </Errors>
+  <FindBugsSummary timestamp="Fri, 19 Sep 2014 23:08:37 -0500" total_classes="7" referenced_classes="40" total_bugs="0" total_size="247" num_packages="3" vm_version="20.45-b01" cpu_seconds="4.21" clock_seconds="1.43" peak_mbytes="321.46" alloc_mbytes="1806.25" gc_seconds="0.00">
+    <FileStats path="mx/gob/imss/cit/gf/constant/NombreParametroConstants.java" bugCount="0" size="29"/>
+    <FileStats path="mx/gob/imss/cit/gf/constant/ValidacionesConstants.java" bugCount="0" size="70"/>
+    <FileStats path="mx/gob/imss/cit/gf/exception/GestorFlujosException.java" bugCount="0" size="49"/>
+    <FileStats path="mx/gob/imss/cit/gf/util/DateUtil.java" bugCount="0" size="19"/>
+    <FileStats path="mx/gob/imss/cit/gf/util/MapperUtil.java" bugCount="0" size="18"/>
+    <FileStats path="mx/gob/imss/cit/gf/util/ValidaCatalogo.java" bugCount="0" size="19"/>
+    <FileStats path="mx/gob/imss/cit/gf/util/ValidatorUtil.java" bugCount="0" size="43"/>
+    <PackageStats package="mx.gob.imss.cit.gf.constant" total_bugs="0" total_types="2" total_size="99">
+      <ClassStats class="mx.gob.imss.cit.gf.constant.NombreParametroConstants" sourceFile="NombreParametroConstants.java" interface="false" size="29" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.constant.ValidacionesConstants" sourceFile="ValidacionesConstants.java" interface="false" size="70" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="mx.gob.imss.cit.gf.exception" total_bugs="0" total_types="1" total_size="49">
+      <ClassStats class="mx.gob.imss.cit.gf.exception.GestorFlujosException" sourceFile="GestorFlujosException.java" interface="false" size="49" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="mx.gob.imss.cit.gf.util" total_bugs="0" total_types="4" total_size="99">
+      <ClassStats class="mx.gob.imss.cit.gf.util.DateUtil" sourceFile="DateUtil.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.util.MapperUtil" sourceFile="MapperUtil.java" interface="false" size="18" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.util.ValidaCatalogo" sourceFile="ValidaCatalogo.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.util.ValidatorUtil" sourceFile="ValidatorUtil.java" interface="false" size="43" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="245" invocations="392" avgMicrosecondsPerInvocation="625" maxMicrosecondsPerInvocation="5830" standardDeviationMircosecondsPerInvocation="931"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="227" invocations="395" avgMicrosecondsPerInvocation="575" maxMicrosecondsPerInvocation="1101" standardDeviationMircosecondsPerInvocation="291"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="83" invocations="40" avgMicrosecondsPerInvocation="2084" maxMicrosecondsPerInvocation="13696" standardDeviationMircosecondsPerInvocation="3522"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="67" invocations="126" avgMicrosecondsPerInvocation="536" maxMicrosecondsPerInvocation="7892" standardDeviationMircosecondsPerInvocation="861"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="37" invocations="40" avgMicrosecondsPerInvocation="925" maxMicrosecondsPerInvocation="5763" standardDeviationMircosecondsPerInvocation="1470"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="36" invocations="348" avgMicrosecondsPerInvocation="104" maxMicrosecondsPerInvocation="1158" standardDeviationMircosecondsPerInvocation="150"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.SerializableIdiom" totalMilliseconds="26" invocations="7" avgMicrosecondsPerInvocation="3799" maxMicrosecondsPerInvocation="25048" standardDeviationMircosecondsPerInvocation="8677"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="18" invocations="40" avgMicrosecondsPerInvocation="458" maxMicrosecondsPerInvocation="4039" standardDeviationMircosecondsPerInvocation="771"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="18" invocations="40" avgMicrosecondsPerInvocation="452" maxMicrosecondsPerInvocation="3223" standardDeviationMircosecondsPerInvocation="808"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="17" invocations="37" avgMicrosecondsPerInvocation="474" maxMicrosecondsPerInvocation="3211" standardDeviationMircosecondsPerInvocation="658"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="15" invocations="37" avgMicrosecondsPerInvocation="431" maxMicrosecondsPerInvocation="2046" standardDeviationMircosecondsPerInvocation="472"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="15" invocations="38" avgMicrosecondsPerInvocation="419" maxMicrosecondsPerInvocation="3079" standardDeviationMircosecondsPerInvocation="686"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="15" invocations="37" avgMicrosecondsPerInvocation="423" maxMicrosecondsPerInvocation="2897" standardDeviationMircosecondsPerInvocation="647"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="15" invocations="56" avgMicrosecondsPerInvocation="279" maxMicrosecondsPerInvocation="1902" standardDeviationMircosecondsPerInvocation="387"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="15" invocations="40" avgMicrosecondsPerInvocation="389" maxMicrosecondsPerInvocation="10770" standardDeviationMircosecondsPerInvocation="1736"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="14" invocations="38" avgMicrosecondsPerInvocation="384" maxMicrosecondsPerInvocation="2605" standardDeviationMircosecondsPerInvocation="594"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="14" invocations="37" avgMicrosecondsPerInvocation="392" maxMicrosecondsPerInvocation="2156" standardDeviationMircosecondsPerInvocation="390"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

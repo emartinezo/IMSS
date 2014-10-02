@@ -1,0 +1,263 @@
+﻿<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>mx.gob.imss.cit.gf</groupId>
+	<artifactId>gestor-flujos</artifactId>
+	<version>1.0</version>
+	<packaging>pom</packaging>
+	<name>Gestor Flujos</name>
+	<modules>
+		<module>gestor-flujos-model</module>
+		<module>gestor-flujos-commons</module>
+		<module>gestor-flujos-adapter</module>
+		<module>gestor-flujos-services</module>
+		<module>gestor-flujos-integration-api</module>
+		<module>gestor-flujos-integration</module>
+		<module>gestor-flujos-ws</module>
+		<module>gestor-flujos-app</module>
+		<module>gestor-flujos-test</module>
+
+	</modules>
+
+
+
+	<profiles>
+
+		<profile>
+			<id>local</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<properties>
+				<gestor.adapter.bpm.jndi.context>weblogic.jndi.WLInitialContextFactory</gestor.adapter.bpm.jndi.context>
+				<gestor.adapter.bpm.url>t3://10.11.6.133:10001</gestor.adapter.bpm.url>
+			</properties>
+		</profile>
+
+		<profile>
+			<id>desarrollo</id>
+			<properties>
+				<gestor.adapter.bpm.jndi.context>weblogic.jndi.WLInitialContextFactory</gestor.adapter.bpm.jndi.context>
+				<gestor.adapter.bpm.url>t3://10.11.6.133:10001</gestor.adapter.bpm.url>
+			</properties>
+
+		</profile>
+	</profiles>
+
+
+
+	<properties>
+		<certum.mvn.repo>192.168.0.211:8081</certum.mvn.repo>
+		<java.version>1.6</java.version>
+		<project.encoding>UTF-8</project.encoding>
+		<project.final.name>gestor-flujos</project.final.name>
+		<!-- Logging -->
+		<org.slf4j-version>1.5.2</org.slf4j-version>
+		<log4j.version>1.2.16</log4j.version>
+		<!-- Certum Commons Lang -->
+		<certum.commons.lang.version>2.0.7</certum.commons.lang.version>
+		<!-- Librerías de Apache -->
+		<commons-lang.version>2.6</commons-lang.version>
+		<commons-collections.version>3.2.1</commons-collections.version>
+		<commons-configuration.version>1.7</commons-configuration.version>
+		<commons-email.version>1.2</commons-email.version>
+		<commons-fileupload.version>1.2.2</commons-fileupload.version>
+		<commons-io.version>2.1</commons-io.version>
+		<commons-dbcp.version>1.4</commons-dbcp.version>
+		<apache.velocity.version>1.7</apache.velocity.version>
+
+		<!-- plugins -->
+		<resources-plugin.version>2.4.3</resources-plugin.version>
+		<maven-eclipse-plugin.version>2.8</maven-eclipse-plugin.version>
+		<maven-compiler-plugin.version>2.3.2</maven-compiler-plugin.version>
+		<resources-plugin.version>2.4.3</resources-plugin.version>
+		<maven-ejb-plugin.version>2.3</maven-ejb-plugin.version>
+		<maven-war-plugin.version>2.1.1</maven-war-plugin.version>
+		<maven-ear-plugin.version>2.8</maven-ear-plugin.version>
+		<jaxws.plugin.version>2.1</jaxws.plugin.version>
+		<lifecycle-mapping.version>1.0.0</lifecycle-mapping.version>
+		<!-- Estandares Java -->
+		<servlet-api.version>2.5</servlet-api.version>
+		<jsp-api.version>2.1</jsp-api.version>
+		<java-ee.version>6.0</java-ee.version>
+		<javax-mail.version>1.4</javax-mail.version>
+		<javax-validation>1.1.0.Final</javax-validation>
+		<jsf.version>2.2.2</jsf.version>
+		<jsf-api.version>2.1.11</jsf-api.version>
+		<javax.persistence.version>2.0.0</javax.persistence.version>
+		<jstl.version>1.2</jstl.version>
+		<el-impl.version>2.2</el-impl.version>
+		<!-- Log4j -->
+		<log4j.version>1.2.16</log4j.version>
+		<!-- Prime Faces -->
+		<prime-faces.version>4.0</prime-faces.version>
+
+		<sonar.core.codeCoveragePlugin>jacoco</sonar.core.codeCoveragePlugin>
+		<sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
+		<sonar.jacoco.reportPath>${project.basedir}/../target/jacoco.exec</sonar.jacoco.reportPath>
+
+	</properties>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>${commons-lang.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-collections</groupId>
+			<artifactId>commons-collections</artifactId>
+			<version>${commons-collections.version}</version>
+		</dependency>
+
+		<!-- Junit -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.8.1</version>
+			<scope>test</scope>
+		</dependency>
+		
+		<!-- Logging -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>${org.slf4j-version}</version>
+			<scope>compile</scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>jcl-over-slf4j</artifactId>
+			<version>${org.slf4j-version}</version>
+			<scope>compile</scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>${org.slf4j-version}</version>
+			<scope>compile</scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>${log4j.version}</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.jacoco</groupId>
+			<artifactId>org.jacoco.core</artifactId>
+			<version>0.6.2.201302030002</version>
+			<scope>test</scope>
+		</dependency>
+
+	</dependencies>
+
+
+
+	<build>
+		<plugins>
+		
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>${maven-compiler-plugin.version}</version>
+				<configuration>
+					<source>${java.version}</source>
+					<target>${java.version}</target>
+					<encoding>${project.encoding}</encoding>
+				</configuration>
+			</plugin>
+			
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>${resources-plugin.version}</version>
+				<configuration>
+					<encoding>${project.encoding}</encoding>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.jacoco</groupId>
+				<artifactId>jacoco-maven-plugin</artifactId>
+				<version>0.7.0.201403182114</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>prepare-agent</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<destFile>${sonar.jacoco.reportPath}</destFile>
+				</configuration>
+			</plugin>
+		</plugins>
+
+
+
+
+
+
+	</build>
+
+
+
+
+	<repositories>
+		<repository>
+			<id>prime-repo</id>
+			<name>PrimeFaces Maven Repository</name>
+			<url>http://repository.primefaces.org</url>
+			<layout>default</layout>
+		</repository>
+
+		<repository>
+			<id>oss.sonatype.org</id>
+			<name>OSS Sonatype Staging</name>
+			<url>https://oss.sonatype.org/content/groups/staging</url>
+		</repository>
+		<repository>
+			<id>EclipseLink Repo</id>
+			<url>http://download.eclipse.org/rt/eclipselink/maven.repo</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>java.net.glassfish</id>
+			<name>Repository hosting the jee6 artifacts</name>
+			<url>http://download.java.net/maven/glassfish</url>
+		</repository>
+
+		<repository>
+			<id>certum-mvn</id>
+			<name>Repositorio central / certum</name>
+			<url>http://${certum.mvn.repo}/nexus/content/repositories/certum-mvn</url>
+		</repository>
+
+		<repository>
+			<id>certum-mvn-snapshot</id>
+			<name>Repositorio central snapshot / certum</name>
+			<url>http://${certum.mvn.repo}/nexus/content/repositories/certum-mvn-snapshot</url>
+		</repository>
+
+		<repository>
+			<id>jboss-public-repository-group</id>
+			<name>JBoss Public Maven Repository Group</name>
+			<url>https://repository.jboss.org/nexus/content/groups/public-jboss/</url>
+		</repository>
+
+	</repositories>
+
+
+
+
+
+</project>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="2.0.3" sequence="0" timestamp="1411186125490" analysisTimestamp="1411188024515" release="">
+  <Project>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\domain\BaseDTO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\domain\ModeloDTO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\domain\UsuarioDTO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\dto\ResponseSesionDTO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\api\IUsuarioIntegrator.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\dto\RequestParticipantesAsigDTO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\dto\ResponseResponsablesInstDTO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\dto\ResponseModeloDTO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\dto\RequestTareaDTO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\dto\RequestModeloDTO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\dto\ResponseDeleteUsuarioDTO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\dto\RequestConsultaArgActDTO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\dto\RequestFindUsuarioDTO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\domain\RolDTO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\api\IInstanciaIntegrator.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\domain\SesionDTO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\dto\ResponseConsultaArgActDTO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\domain\ActividadDTO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\dto\ResponseTareaDTO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\domain\TareaRolDTO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\dto\ResponseInstanciaRolesDTO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\api\IModeloIntegrator.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\dto\ResponseFindUsuarioDTO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\dto\BaseRequestDTO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\dto\RequestResponsablesInstDTO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\dto\RequestDeleteUsuarioDTO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\dto\RequestSesionDTO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\dto\BaseResponseDTO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\dto\ResponseTareaRolDTO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\dto\ResponseInstanciaDTO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\dto\RequestCreateUsuarioDTO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\domain\InstanciaDTO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\dto\ResponseParticipantesAsigDTO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\api\ISesionIntegrator.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\domain\UsuarioBPMDTO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\dto\RequestInstanciaDTO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\dto\ResponseCreateUsuarioDTO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\domain\TareaDTO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\domain\ParticipanteDTO.class</Jar>
+    <Jar>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes\mx\gob\imss\cit\gf\integration\api\ITareaIntegrator.class</Jar>
+    <AuxClasspathEntry>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\target\classes</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\.\.sonar\gestor.flujos_gestor.integration.api\findbugs\annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\.\.sonar\gestor.flujos_gestor.integration.api\findbugs\jsr305.jar</AuxClasspathEntry>
+    <SrcDir>C:\Developer\svn\IMSS\gestor\trunk\src\gestor-flujos-servicios\gestor-flujos-integration-api\src\main\java</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 19 Sep 2014 23:08:45 -0500" total_classes="40" referenced_classes="52" total_bugs="0" total_size="733" num_packages="3" vm_version="20.45-b01" cpu_seconds="2.15" clock_seconds="0.96" peak_mbytes="531.30" alloc_mbytes="1806.25" gc_seconds="0.18">
+    <FileStats path="mx/gob/imss/cit/gf/integration/api/IInstanciaIntegrator.java" bugCount="0" size="8"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/api/IModeloIntegrator.java" bugCount="0" size="2"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/api/ISesionIntegrator.java" bugCount="0" size="3"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/api/ITareaIntegrator.java" bugCount="0" size="11"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/api/IUsuarioIntegrator.java" bugCount="0" size="5"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/domain/ActividadDTO.java" bugCount="0" size="34"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/domain/BaseDTO.java" bugCount="0" size="4"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/domain/InstanciaDTO.java" bugCount="0" size="58"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/domain/ModeloDTO.java" bugCount="0" size="28"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/domain/ParticipanteDTO.java" bugCount="0" size="34"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/domain/RolDTO.java" bugCount="0" size="10"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/domain/SesionDTO.java" bugCount="0" size="16"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/domain/TareaDTO.java" bugCount="0" size="88"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/domain/TareaRolDTO.java" bugCount="0" size="27"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/domain/UsuarioBPMDTO.java" bugCount="0" size="40"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/domain/UsuarioDTO.java" bugCount="0" size="16"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/dto/BaseRequestDTO.java" bugCount="0" size="4"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/dto/BaseResponseDTO.java" bugCount="0" size="29"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/dto/RequestConsultaArgActDTO.java" bugCount="0" size="28"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/dto/RequestCreateUsuarioDTO.java" bugCount="0" size="16"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/dto/RequestDeleteUsuarioDTO.java" bugCount="0" size="22"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/dto/RequestFindUsuarioDTO.java" bugCount="0" size="16"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/dto/RequestInstanciaDTO.java" bugCount="0" size="16"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/dto/RequestModeloDTO.java" bugCount="0" size="16"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/dto/RequestParticipantesAsigDTO.java" bugCount="0" size="22"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/dto/RequestResponsablesInstDTO.java" bugCount="0" size="22"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/dto/RequestSesionDTO.java" bugCount="0" size="10"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/dto/RequestTareaDTO.java" bugCount="0" size="22"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/dto/ResponseConsultaArgActDTO.java" bugCount="0" size="10"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/dto/ResponseCreateUsuarioDTO.java" bugCount="0" size="10"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/dto/ResponseDeleteUsuarioDTO.java" bugCount="0" size="10"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/dto/ResponseFindUsuarioDTO.java" bugCount="0" size="10"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/dto/ResponseInstanciaDTO.java" bugCount="0" size="16"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/dto/ResponseInstanciaRolesDTO.java" bugCount="0" size="10"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/dto/ResponseModeloDTO.java" bugCount="0" size="10"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/dto/ResponseParticipantesAsigDTO.java" bugCount="0" size="10"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/dto/ResponseResponsablesInstDTO.java" bugCount="0" size="10"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/dto/ResponseSesionDTO.java" bugCount="0" size="10"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/dto/ResponseTareaDTO.java" bugCount="0" size="10"/>
+    <FileStats path="mx/gob/imss/cit/gf/integration/dto/ResponseTareaRolDTO.java" bugCount="0" size="10"/>
+    <PackageStats package="mx.gob.imss.cit.gf.integration.api" total_bugs="0" total_types="5" total_size="29">
+      <ClassStats class="mx.gob.imss.cit.gf.integration.api.IInstanciaIntegrator" sourceFile="IInstanciaIntegrator.java" interface="true" size="8" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.api.IModeloIntegrator" sourceFile="IModeloIntegrator.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.api.ISesionIntegrator" sourceFile="ISesionIntegrator.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.api.ITareaIntegrator" sourceFile="ITareaIntegrator.java" interface="true" size="11" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.api.IUsuarioIntegrator" sourceFile="IUsuarioIntegrator.java" interface="true" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="mx.gob.imss.cit.gf.integration.domain" total_bugs="0" total_types="11" total_size="355">
+      <ClassStats class="mx.gob.imss.cit.gf.integration.domain.ActividadDTO" sourceFile="ActividadDTO.java" interface="false" size="34" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.domain.BaseDTO" sourceFile="BaseDTO.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.domain.InstanciaDTO" sourceFile="InstanciaDTO.java" interface="false" size="58" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.domain.ModeloDTO" sourceFile="ModeloDTO.java" interface="false" size="28" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.domain.ParticipanteDTO" sourceFile="ParticipanteDTO.java" interface="false" size="34" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.domain.RolDTO" sourceFile="RolDTO.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.domain.SesionDTO" sourceFile="SesionDTO.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.domain.TareaDTO" sourceFile="TareaDTO.java" interface="false" size="88" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.domain.TareaRolDTO" sourceFile="TareaRolDTO.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.domain.UsuarioBPMDTO" sourceFile="UsuarioBPMDTO.java" interface="false" size="40" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.domain.UsuarioDTO" sourceFile="UsuarioDTO.java" interface="false" size="16" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="mx.gob.imss.cit.gf.integration.dto" total_bugs="0" total_types="24" total_size="349">
+      <ClassStats class="mx.gob.imss.cit.gf.integration.dto.BaseRequestDTO" sourceFile="BaseRequestDTO.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.dto.BaseResponseDTO" sourceFile="BaseResponseDTO.java" interface="false" size="29" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.dto.RequestConsultaArgActDTO" sourceFile="RequestConsultaArgActDTO.java" interface="false" size="28" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.dto.RequestCreateUsuarioDTO" sourceFile="RequestCreateUsuarioDTO.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.dto.RequestDeleteUsuarioDTO" sourceFile="RequestDeleteUsuarioDTO.java" interface="false" size="22" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.dto.RequestFindUsuarioDTO" sourceFile="RequestFindUsuarioDTO.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.dto.RequestInstanciaDTO" sourceFile="RequestInstanciaDTO.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.dto.RequestModeloDTO" sourceFile="RequestModeloDTO.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.dto.RequestParticipantesAsigDTO" sourceFile="RequestParticipantesAsigDTO.java" interface="false" size="22" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.dto.RequestResponsablesInstDTO" sourceFile="RequestResponsablesInstDTO.java" interface="false" size="22" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.dto.RequestSesionDTO" sourceFile="RequestSesionDTO.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.dto.RequestTareaDTO" sourceFile="RequestTareaDTO.java" interface="false" size="22" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.dto.ResponseConsultaArgActDTO" sourceFile="ResponseConsultaArgActDTO.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.dto.ResponseCreateUsuarioDTO" sourceFile="ResponseCreateUsuarioDTO.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.dto.ResponseDeleteUsuarioDTO" sourceFile="ResponseDeleteUsuarioDTO.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.dto.ResponseFindUsuarioDTO" sourceFile="ResponseFindUsuarioDTO.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.dto.ResponseInstanciaDTO" sourceFile="ResponseInstanciaDTO.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.dto.ResponseInstanciaRolesDTO" sourceFile="ResponseInstanciaRolesDTO.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.dto.ResponseModeloDTO" sourceFile="ResponseModeloDTO.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.dto.ResponseParticipantesAsigDTO" sourceFile="ResponseParticipantesAsigDTO.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.dto.ResponseResponsablesInstDTO" sourceFile="ResponseResponsablesInstDTO.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.dto.ResponseSesionDTO" sourceFile="ResponseSesionDTO.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.dto.ResponseTareaDTO" sourceFile="ResponseTareaDTO.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="mx.gob.imss.cit.gf.integration.dto.ResponseTareaRolDTO" sourceFile="ResponseTareaRolDTO.java" interface="false" size="10" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NumberConstructor" totalMilliseconds="184" invocations="40" avgMicrosecondsPerInvocation="4603" maxMicrosecondsPerInvocation="182589" standardDeviationMircosecondsPerInvocation="28500"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="122" invocations="324" avgMicrosecondsPerInvocation="378" maxMicrosecondsPerInvocation="923" standardDeviationMircosecondsPerInvocation="206"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="65" invocations="317" avgMicrosecondsPerInvocation="207" maxMicrosecondsPerInvocation="2574" standardDeviationMircosecondsPerInvocation="338"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="18" invocations="223" avgMicrosecondsPerInvocation="81" maxMicrosecondsPerInvocation="445" standardDeviationMircosecondsPerInvocation="38"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="14" invocations="276" avgMicrosecondsPerInvocation="53" maxMicrosecondsPerInvocation="666" standardDeviationMircosecondsPerInvocation="97"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="14" invocations="223" avgMicrosecondsPerInvocation="64" maxMicrosecondsPerInvocation="115" standardDeviationMircosecondsPerInvocation="18"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="14" invocations="223" avgMicrosecondsPerInvocation="64" maxMicrosecondsPerInvocation="118" standardDeviationMircosecondsPerInvocation="18"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="14" invocations="52" avgMicrosecondsPerInvocation="271" maxMicrosecondsPerInvocation="3307" standardDeviationMircosecondsPerInvocation="644"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="13" invocations="223" avgMicrosecondsPerInvocation="59" maxMicrosecondsPerInvocation="194" standardDeviationMircosecondsPerInvocation="19"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="12" invocations="223" avgMicrosecondsPerInvocation="55" maxMicrosecondsPerInvocation="141" standardDeviationMircosecondsPerInvocation="21"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="12" invocations="223" avgMicrosecondsPerInvocation="54" maxMicrosecondsPerInvocation="134" standardDeviationMircosecondsPerInvocation="13"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindInconsistentSync2" totalMilliseconds="12" invocations="40" avgMicrosecondsPerInvocation="300" maxMicrosecondsPerInvocation="1601" standardDeviationMircosecondsPerInvocation="286"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="11" invocations="277" avgMicrosecondsPerInvocation="42" maxMicrosecondsPerInvocation="390" standardDeviationMircosecondsPerInvocation="60"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
