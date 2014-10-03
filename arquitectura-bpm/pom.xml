@@ -1,0 +1,212 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>mx.gob.imss.cit</groupId>
+  <artifactId>arquitectura-bpm</artifactId>
+  <version>1.0</version>
+  <name>Arquitectura BPM API</name>
+  <packaging>jar</packaging>
+  
+  
+     <properties>
+		<certum.mvn.repo>192.168.0.211:8081</certum.mvn.repo>
+	</properties>
+
+  <dependencies>
+  
+	<dependency>
+      <groupId>com.oracle.bpm</groupId>
+      <artifactId>bpm-infra</artifactId>
+      <version>11.1.1.7</version>
+    </dependency>
+	
+	<dependency>
+      <groupId>com.oracle.bpm</groupId>
+      <artifactId>bpm-services</artifactId>
+      <version>11.1.1.7</version>
+    </dependency>
+	
+	<dependency>
+      <groupId>com.oracle.bpm.bpm-services</groupId>
+      <artifactId>client</artifactId>
+      <version>11.1.1.7</version>
+    </dependency>
+	
+	<dependency>
+      <groupId>com.oracle.bpm.bpm-services</groupId>
+      <artifactId>interface</artifactId>
+      <version>11.1.1.7</version>
+    </dependency>
+	
+	<dependency>
+      <groupId>com.oracle.bpm</groupId>
+      <artifactId>core</artifactId>
+      <version>11.1.1.7</version>
+    </dependency>
+	
+	<dependency>
+      <groupId>com.oracle.bpm.diagram</groupId>
+      <artifactId>draw</artifactId>
+      <version>11.1.1.7</version>
+    </dependency>
+	
+	<dependency>
+      <groupId>com.oracle.bpm</groupId>
+      <artifactId>lib</artifactId>
+      <version>11.1.1.7</version>
+    </dependency>
+	
+	<dependency>
+      <groupId>com.oracle.bpm</groupId>
+      <artifactId>metadata-interface</artifactId>
+      <version>11.1.1.7</version>
+    </dependency>
+	
+	<dependency>
+      <groupId>com.oracle.bpm</groupId>
+      <artifactId>project</artifactId>
+      <version>11.1.1.7</version>
+    </dependency>
+	
+	<dependency>
+      <groupId>com.oracle.bpm.project</groupId>
+      <artifactId>catalog</artifactId>
+      <version>11.1.1.7</version>
+    </dependency>
+	
+	<dependency>
+      <groupId>com.oracle.bpm.project</groupId>
+      <artifactId>compile</artifactId>
+      <version>11.1.1.7</version>
+    </dependency>
+	
+	<dependency>
+      <groupId>com.oracle.bpm.project</groupId>
+      <artifactId>draw</artifactId>
+      <version>11.1.1.7</version>
+    </dependency>
+	
+	<dependency>
+      <groupId>com.oracle.bpm.project</groupId>
+      <artifactId>io</artifactId>
+      <version>11.1.1.7</version>
+    </dependency>
+	
+	<dependency>
+      <groupId>com.oracle.bpm.project</groupId>
+      <artifactId>model</artifactId>
+      <version>11.1.1.7</version>
+    </dependency>
+	
+	<dependency>
+      <groupId>com.oracle.bpm.project</groupId>
+      <artifactId>ui</artifactId>
+      <version>11.1.1.7</version>   	
+	 </dependency>
+	  
+	<dependency>
+      <groupId>com.oracle.bpm</groupId>
+      <artifactId>ui</artifactId>
+      <version>11.1.1.7</version>
+    </dependency>
+	
+	<dependency>
+      <groupId>com.oracle.bpm</groupId>
+      <artifactId>xml</artifactId>
+      <version>11.1.1.7</version>
+    </dependency>
+
+	<dependency>
+		<groupId>com.oracle.bpm</groupId>
+		<artifactId>vfilesystem</artifactId>
+		<version>11.1.1.7</version>
+	</dependency>
+
+	<dependency>
+		<groupId>com.oracle.bpm</groupId>
+		<artifactId>metadata</artifactId>
+		<version>11.1.1.7</version>
+	</dependency>
+	
+	<dependency>
+      <groupId>com.oracle</groupId>
+      <artifactId>wlthint3client</artifactId>
+      <version>11.1.1.7</version>
+    </dependency>
+	
+	<dependency>
+      <groupId>com.oracle</groupId>
+      <artifactId>wsclient_extended</artifactId>
+      <version>11.1.1.7</version>
+    </dependency>
+	
+	<dependency>
+      <groupId>com.oracle</groupId>
+      <artifactId>xml</artifactId>
+      <version>11.1.1.7</version>
+    </dependency>
+
+	<dependency>
+		<groupId>com.oracle</groupId>
+		<artifactId>xmlparserv2</artifactId>
+	<version>11.1.1.7</version>
+	</dependency>
+
+	<dependency>
+		<groupId>com.oracle</groupId>
+		<artifactId>infra-mgmt</artifactId>
+		<version>11.1.1.7</version>
+	</dependency>
+
+	<dependency>
+		<groupId>com.oracle</groupId>
+		<artifactId>fabric-common</artifactId>
+		<version>11.1.1.7</version>
+	</dependency>
+
+	<dependency>
+		<groupId>com.oracle</groupId>
+		<artifactId>mdsrt</artifactId>
+		<version>11.1.1.7</version>
+	</dependency>
+
+	<dependency>
+		<groupId>com.oracle</groupId>
+		<artifactId>orabpel</artifactId>
+		<version>11.1.1.7</version>
+	</dependency>
+     
+  </dependencies>
+  
+  
+	<repositories>
+		
+		 <repository>
+		  <id>certum-mvn</id>
+		  <name>Repositorio central / certum</name>
+		  <url>http://${certum.mvn.repo}/nexus/content/repositories/certum-mvn</url>
+		</repository>
+		
+		<repository>
+		  <id>certum-mvn-snapshot</id>
+		  <name>Repositorio central snapshot / certum</name>
+		  <url>http://${certum.mvn.repo}/nexus/content/repositories/certum-mvn-snapshot</url>
+		</repository>
+		
+	</repositories>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.3.2</version>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+				</configuration>
+			</plugin>
+		</plugins>
+  	</build>
+</project>

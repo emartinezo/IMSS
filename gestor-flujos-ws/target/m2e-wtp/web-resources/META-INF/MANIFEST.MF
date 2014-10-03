@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Built-By: jhernandezn
+Built-By: juanmanuel
 Build-Jdk: 1.7.0_67
 Class-Path: gestor-flujos-integration-api-1.0.jar commons-lang-2.6.jar
   commons-collections-3.2.1.jar slf4j-api-1.5.2.jar jcl-over-slf4j-1.5
